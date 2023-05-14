@@ -52,12 +52,19 @@
 
 			color: #001CD9;
 		}
+
+.header {
+           font-weight: bold;
+           text-align:left;
+            }
 	</style>
 </head>
 
 <body>
 
 	<nav class="navMenu  border">
+		            <p class="header">MAIN TOOLS</p> 
+<br>
 		<a id="composer" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-paper-plane"></i>Composer</a>
 		<a id="bulk_post" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-rocket"></i> Bulk Post</a>
 		<a id="drafts" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-pen-to-square"></i></i> Drafts</a>
@@ -67,7 +74,19 @@
 		<a id="tools" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-pen-ruler"></i> Tools</a>
 		<a id="bitly" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-link"></i> Bitly</a>
 		<a id="adobe_ex" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-palette"></i> Adobe Express</a>
+<br>
+<p class="header">WHATSAPP TOOLS</p>
+<br>
+
+            <a id="add_number" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-square-phone"></i>Adding a number</a>
+		<a id="add_contacts" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-address-book"></i> Adding contacts</a>
+		<a id="bulk_messaging" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-comments"></i> Bulk Messages</a>
+		<a id="spintax" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-at"></i> How to use Spintax</a>
+		<a id="autoresponder" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-reply-all"></i> Autoresponder</a>
+		<a id="chatbot" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-robot"></i>Chatbot</a>
+		<a id="export" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-file-export"></i> Export participants</a>
 		
+
 
 
 
@@ -102,6 +121,22 @@
 				window.open("https://example.com", '_blank').focus();
 			else if (id == "adobe_ex")
 				window.open("https://example.com", '_blank').focus();
+                 else if (id == 'add_number')
+				window.open("https://example.com", '_blank').focus();
+                 else if (id == "add_contacts")
+				window.open("https://example.com", '_blank').focus();
+			else if (id == "bulk_messaging")
+				window.open("https://example.com", '_blank').focus();
+			else if (id == "spintax")
+				window.open("https://example.com", '_blank').focus();			
+			else if (id == "autoresponder")
+				window.open("https://example.com", '_blank').focus();
+			else if (id == "chatbot")
+				window.open("https://example.com", '_blank').focus();
+			else if (id == "export")
+                        window.open("https://example.com", '_blank').focus();
+			
+
 			
 
 		}
