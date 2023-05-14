@@ -65,7 +65,8 @@
 	<nav class="navMenu  border">
 		            <p class="header">MAIN TOOLS</p> 
 <br>
-		<a id="composer" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-paper-plane"></i>Composer</a>
+            <a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i>Home</a>	
+            <a id="composer" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-paper-plane"></i>Composer</a>
 		<a id="bulk_post" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-rocket"></i> Bulk Post</a>
 		<a id="drafts" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-pen-to-square"></i></i> Drafts</a>
 		<a id="schedules" onclick="navigate(this.id)" href="#"> <i class="fa-regular fa-calendar-days"></i> Schedules</a>
@@ -103,7 +104,10 @@
 
 		function navigate(id) {
 
-			if (id == 'composer')
+			if (id == 'home')
+				window.open("https://example.com", '_blank').focus();
+
+                  else if (id == 'composer')
 				window.open("https://example.com", '_blank').focus();
 			else if (id == "bulk_post")
 				window.open("https://example.com", '_blank').focus();
